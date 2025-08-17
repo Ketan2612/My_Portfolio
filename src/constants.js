@@ -1,4 +1,3 @@
-// Skills Section Logo's
 import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
@@ -20,15 +19,13 @@ import figmaLogo from './assets/tech_logo/figma.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 
 
-
-// Education Section Logo's
 import cuLogo from './assets/education_logo/cu-logo.png';
 import apsLogo from './assets/education_logo/aps.jpeg';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
+import PortfolioLogo from './assets/work_logo/My_Portfolio.png';
+import EcommerceLogo from './assets/work_logo/Ecommerce.png';
+import AmazonCloneLogo from './assets/work_logo/Amazon-Clone.png';
 
 export const SkillsInfo = [
   {
@@ -108,29 +105,26 @@ export const SkillsInfo = [
       title: "Full Stack E-Commerce Website",
       description:
         "A powerful and user-friendly React.js application designed to uncover and showcase E-commerce Website. Simply search a item , add it to the cart , go to checkout and check details , complete the payment and finally your order gets placed.",
-      image: githubdetLogo,
+      image: EcommerceLogo,
       tags: ["HTML", "CSS", "JavaScript", "API","MERN STACK"],
       github: "https://github.com/Ketan2612/Ecommerce-Website",
-      webapp: "https://githubprofiledetective.netlify.app/",
     },
     {
       id: 1,
-      title: "Portfolio Website",
+      title: "Web Portfolio",
       description:
         "A React JS based portfolio website designed to showcase my education, projects and About me . It is designed as a responsive website which showcase an individuals portfolio .",
-      image: csprepLogo,
+      image: PortfolioLogo,
       tags: ["React JS", "HTML", "TAILWIND CSS", "JavaScript"],
-      github: "https://github.com/Ketan2612/Portfolio_Website",
-      webapp: "https://csprep.netlify.app/",
+      github: "https://github.com/Ketan2612/My_Portfolio",
     },
     {
       id: 2,
       title: "Amazon Clone",
       description:
       "A basic and my first self made project which incresed my web development skills and made me realise what a html code along with the designing in CSS and some JAVASCRIPT functions can make a website .", 
-      image: movierecLogo,
+      image: AmazonCloneLogo,
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/Ketan2612/Amazon-Clone",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
     },
   ];  
